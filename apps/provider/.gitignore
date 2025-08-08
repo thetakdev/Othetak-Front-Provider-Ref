@@ -1,13 +1,14 @@
 # Dependencies
-node_modules
-
-# Turbo
-.turbo
+/node_modules
 
 # next.js
-.next/
+/.next/
+/out/
 
-# Misc
+# production
+/build
+
+# misc
 .DS_Store
 
 # Debug
@@ -16,3 +17,6 @@ pnpm-debug.log*
 
 # Local env files
 .env
+
+# typescript
+*.tsbuildinfo
