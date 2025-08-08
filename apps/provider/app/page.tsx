@@ -1,3 +1,9 @@
+import { Button } from '@repo/ui/components/ui/button';
+
 export default function Page() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 }
